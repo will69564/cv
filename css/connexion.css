@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "font";
+  src: url(./fonts/BAHNSCHRIFT.TTF);
+}
+
+body {
+  font-family: "font", sans-serif;
+  background-image: url(./images/cobg.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+h2 {
+  color: #feb900;
+  font-size: 40px;
+}
+.block {
+  background-color: #ffffff;
+  padding: 20px 0;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-custom {
+  color: #ffffff;
+  background-color: #feb900;
+}
+.btn-custom:hover {
+  background-color: #ecad00;
+  color: #ffffff;
+}
+.champ {
+  border: none;
+  border-radius: 5px;
+  width: 85%;
+  height: 35px;
+}
+
+input {
+  text-align: center;
+  background-color: #eeeeee;
+}
+input ::placeholder {
+  color: #bbbbbb;
+}
+
+@media screen and (max-width: 380px) {
+  .block {
+    width: 310px;
+  }
+} 

@@ -1,0 +1,22 @@
+
+
+.container-fluid{
+    margin-top: 10px;
+}
+p
+p {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+meter {
+    color: rgb(0, 0, 27);
+}
+.name-ets{
+    margin-top: 50px;
+}
+h1{
+    color: rgba(0,204,156,255);
+}
+h2{
+    color: rgba(0,204,156,255);
+}
